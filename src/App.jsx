@@ -5,7 +5,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-<>
+<div className='home page-template-default page page-id-7 elementor-default elementor-kit-5 elementor-page elementor-page-7'>
   {/* Header */}
   <div className="navbar-area bg-color-140c2d   ">
     <div className="nata-responsive-nav">
@@ -2083,7 +2083,7 @@ function App() {
     type="text/css"
     media="all"
   />
-</>
+</div>
 
   )
 }
