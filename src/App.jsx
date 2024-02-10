@@ -130,7 +130,7 @@ function App() {
                     >
                       <a
                         title="Chainback File Manager"
-                        href="https://app.chainback.org/"
+                        href="https://app-chainback-org.vercel.app/"
                         className="dropdown-item"
                       >
                         Chainback File Manager
@@ -143,6 +143,12 @@ function App() {
                       <a title="Chainback Cloud" href="#" className="dropdown-item">
                         Chainback Cloud
                       </a>
+                    </li>
+                    <li
+                      id="menu-item-4672"
+                      className="menu-item menu-item-type-custom menu-item-object-custom menu-item-4672 nav-item"
+                    >
+                      <a title="Yana AI" href="#" class="dropdown-item">Yana AI</a>
                     </li>
                   </ul>
                 </li>
