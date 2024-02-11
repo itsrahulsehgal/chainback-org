@@ -1,0 +1,980 @@
+#nfd-site-status {
+    align-items: center;
+    background-color: #F8F8F8;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    color: #333333;
+    display: flex;
+    font-weight: 500;
+    gap: 2px;
+    height: 22px;
+    margin-top: 4px;
+    padding: 0 14px;
+}
+
+#wpadminbar #wp-admin-bar-site-status .ab-item {
+    height: 22px;
+}
+
+#nfd-site-status[data-coming-soon="true"] {
+    border-color: var(--Dark-Red, #C71919);
+}
+
+#nfd-site-status[data-coming-soon="false"] {
+    border-color: var(--A11y-GRN, #278224);
+}
+
+#nfd-site-status span {
+    display: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#nfd-site-status[data-coming-soon="true"] #nfd-site-status-coming-soon {
+    color: var(--Dark-Red, #C71919);
+    display: inline-block;
+}
+
+#nfd-site-status[data-coming-soon="false"] #nfd-site-status-live {
+    color: var(--A11y-GRN, #278224);
+    display: inline-block;
+}
+html,
+body {
+    overflow-x: hidden;
+}
+
+.default-btn {
+
+    height: 50px;
+}
+
+.archive default-btn {
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(90.99deg, var(--gradColor1) 0.27%, var(--gradColor2) 30%, var(--gradColor3) 98.69%);
+    position: relative;
+    z-index: 1;
+    overflow: initial;
+    color: var(--whiteColor);
+
+}
+
+.navbar .navbar-nav .nav-item .dropdown-toggle::before {
+    top: 8px;
+    transition: 0.5s;
+}
+
+.default-btn::beforebefore::hover {
+    transform: rotate(90deg) !important;
+}
+
+.custom-button {
+    transition: 0.3s;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    padding-left: 18px;
+    padding-right: 18px;
+    background: linear-gradient(135deg, var(--gradColorPink) 0%, var(--gradColorBlue) 100%);
+    border-radius: 6px;
+    transition: var(--transition);
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+
+}
+
+.default-btn {
+    overflow: visible;
+}
+
+.custom-button:hover {
+
+    box-shadow: 0px 0px 25px 1px #46FF7A;
+    opacity: 1 !important;
+
+
+}
+
+
+.navbar .navbar-nav .nav-item .dropdown-menu {
+    border-radius: 20px !important;
+    padding: 20px;
+    background: linear-gradient(123.97deg, #282E5C 10.37%, #020627 91.66%);
+    box-shadow: 0px 4px 40px #000000;
+    width: auto;
+}
+
+
+#menu-item-4672::after {
+    content: 'NEW';
+    padding: 2px 10px 2px 10px;
+    background: linear-gradient(60deg, #F094FA 13.4%, #F5576E 86.6%);
+    border-radius: 4px;
+    color: white;
+    float: right;
+
+}
+
+#menu-item-4671::before {
+    content: url('https://chainback.org/wp-content/uploads/2024/02/icon-park-twotone_download-four.svg');
+    background:
+        radial-gradient(circle farthest-corner at 35% 90%, #46FF7A, transparent 50%),
+        radial-gradient(circle farthest-corner at 0 -25%, #52CBE7, transparent 50%),
+        radial-gradient(circle farthest-corner at 100% 100%, #46FF7A, transparent);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+
+
+}
+
+
+#menu-item-4672::before {
+    content: url('https://chainback.org/wp-content/uploads/2024/02/Chainback-cloud.svg');
+    background:
+        radial-gradient(circle farthest-corner at 35% 90%, #8B55FF, transparent 50%),
+        radial-gradient(circle farthest-corner at 0 -25%, #FA26CA, transparent 50%),
+        radial-gradient(circle farthest-corner at 100% 100%, #FA26CA, transparent);
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+
+}
+
+
+#menu-item-4672,
+#menu-item-4671 {
+    display: inline-flex;
+    flex-wrap: nowrap;
+
+    align-items: center;
+    column-gap: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+
+.dropdown-toggle::after {
+    width: 0% !important;
+    transition: 0.5s;
+}
+
+.elementor-element-e211e99 {
+    margin: 7%;
+    padding: 0px 60px 0px 60px;
+}
+
+#imghero img {
+    scale: 0.8;
+}
+
+.elementor a {
+    margin-right: 40px;
+}
+
+
+.banner-btn a {
+    margin-bottom: 20px !important;
+}
+
+#imgscalehero img {
+    border-radius: 12px !important;
+}
+
+#imgscalehero .banner-img-1 {
+    scale: 0.9;
+
+    padding: 1px;
+    border: 1px solid #ffffff30;
+    border-radius: 16px !important;
+    background-color: #ffffff10;
+
+
+}
+
+
+#imgscalehero .banner-img-1:before,
+#imgscalehero .banner-img-1:after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg, #FA26CA, #8B55FF, #46FF7A, #F094FA, #52CBE7, #FA26CA,
+            #8B55FF, #46FF7A, #F094FA, #52CBE7);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: steam 20s linear infinite;
+    border-radius: 16px !important;
+
+}
+
+@keyframes steam {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+#imgscalehero .banner-img-1:after {
+    filter: blur(50px);
+}
+
+
+
+.single-road-map p {
+    font-size: 16px !important;
+}
+
+
+
+.road-map-slide.owl-theme .owl-nav .owl-next i {
+    color: #8c2bf1;
+    font-size: 30px;
+}
+
+.road-map-slide.owl-theme .owl-nav .owl-prev i {
+    color: #8c2bf1;
+}
+
+
+
+
+
+
+
+
+.single-team ul li {
+    margin: 35px;
+    transition: transform .5s ease !important;
+}
+
+.single-team ul li:hover {
+    transform: scale(1.2) !important;
+}
+
+
+.telegram:before {
+    content: url('https://chainback.org/wp-content/uploads/2023/12/ic_sharp-telegram.svg');
+
+    display: inline-block;
+
+}
+
+
+.twitter:before {
+    content: url('https://chainback.org/wp-content/uploads/2023/12/simple-icons_x-80.svg');
+
+    display: inline-block;
+
+
+}
+
+
+
+
+.medium:before {
+    content: url('https://chainback.org/wp-content/uploads/2023/12/mingcute_medium-fill.svg');
+    display: inline-block;
+
+}
+
+
+
+
+
+
+
+
+
+
+.chainbacksignpaddings {
+    padding: 50px;
+}
+
+
+
+/* jost font family*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body,
+a,
+cite,
+ul,
+li,
+span.top-title,
+p,
+button,
+span {
+    font-family: 'Jost', sans-serif !important;
+}
+
+
+
+p {
+    font-size: 1.4em;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+a {
+    font-weight: 700 !important;
+}
+
+
+.navbar-area.is-sticky {
+    background-color: #13173F !important;
+}
+
+
+
+.single-features,
+.single-road-map {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.date {
+    display: inline-block;
+}
+
+.top-tittle {
+    background: linear-gradient(90.99deg, var(--gradColor1) 0.27%, var(--gradColor2) 30%, var(--gradColor3) 98.69%);
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+
+
+.bg-color-170f32 {
+    background-color: #020627;
+}
+
+
+
+span.top-title {
+    letter-spacing: 0.1em;
+    font-size: 16px;
+    color: var(--mainColor);
+    display: inline-block;
+    margin-bottom: 15px;
+    font-weight: 600;
+    background: linear-gradient(90.99deg, var(--gradColor1) 0.27%, var(--gradColor2) 30%, var(--gradColor3) 98.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: var(--headingFontfamily);
+}
+
+
+.elementor-7 .elementor-element.elementor-element-6172fd9:not(.elementor-motion-effects-element-type-background) {
+    margin-bottom: 0px !important;
+}
+
+
+.single-team {
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+
+
+.elementor-7 .elementor-element.elementor-element-94e6bcd .elementor-heading-title,
+
+.elementor-7 .elementor-element.elementor-element-d1ade72 .elementor-heading-title,
+.elementor-7 .elementor-element.elementor-element-32a0f3d .elementor-heading-title,
+.elementor-7 .elementor-element.elementor-element-66b9805 .elementor-heading-title {
+
+    font-size: 24px;
+
+    color: var(--mainColor);
+    display: inline-block;
+    margin-bottom: 15px;
+    font-weight: 700;
+    background: linear-gradient(90.99deg, var(--gradColor1) 0.27%, var(--gradColor2) 30%, var(--gradColor3) 98.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: var(--headingFontfamily);
+}
+
+
+
+
+.textgradient {
+    color: var(--mainColor);
+    display: inline-block;
+    margin-bottom: 15px;
+    font-weight: 700;
+    background: linear-gradient(90.99deg, var(--gradColor1) 0.27%, var(--gradColor2) 30%, var(--gradColor3) 98.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: var(--headingFontfamily);
+}
+
+
+
+.hover {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+
+
+.single-what-you-get {
+    height: 400px;
+}
+
+.single-what-you-get::before {
+    border-radius: 40px;
+}
+
+
+
+.copy-right-area {
+    background-color: #13173f;
+    border-top: 2px solid #ffffff1f;
+
+}
+
+
+.footer-shape {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#menu-item-1042 {
+    font-weight: 500;
+    font-size: 16px;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 1px transparent;
+    border-radius: 8px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #46ff7a, #712af9);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #020627 inset;
+    padding: 8px 16px 0px 16px;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#menu-item-1042 .nav-link::after {
+    height: 0px;
+
+}
+
+
+
+.navbar>.container-fluid {
+    padding: 20px;
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link::after {
+    bottom: 10px;
+}
+
+
+
+
+.ri-medium-fill,
+.ri-twitter-fill,
+.ri-telegram-fill {
+    font-size: 32px;
+    transition: 0.3s;
+
+
+}
+
+.single-team:hover h3 {
+    background: linear-gradient(90.99deg, #ffffff 0.27%, #ffffff 30%, #ffffff 98.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* background: white !important; */
+}
+
+
+
+.elementor-element-b322cc6 single-team {
+
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+
+}
+
+
+
+.single-what-you-get .main {
+    padding: 50px;
+}
+
+
+
+.banner-content.style-one {
+    padding-bottom: 50px !important;
+
+}
+
+
+
+
+.stake-bg {
+    background: linear-gradient(135deg, #282e5c 0%, #020627 100%);
+
+}
+
+
+
+.single-features::before {
+    background: linear-gradient(135deg, #282e5c 0%, #020627 100%);
+}
+
+div.banner-btn {
+    margin-bottom: 5%;
+}
+
+.single-features {
+    background: linear-gradient(135deg, #0d1341 0%, rgba(26, 9, 58, 0.1) 100%);
+}
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    #imgscalehero {
+        padding-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+
+    #imgscalehero {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar-area .others-option .default-btn {
+        display: none !important;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .nata-responsive-nav .mean-container a.meanmenu-reveal {
+        display: none !important;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    #signimg,
+    #forgamesimg,
+    #ctaicon {
+        height: 210px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    #signimg,
+    #forgamesimg,
+    #ctaicon {
+        height: 380px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+    #stake-bg {
+        height: 290px;
+        margin-bottom: 40px;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+    .elementor-7 .elementor-element.elementor-element-4554bff:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap {
+        background-position: unset;
+
+    }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+    .banner-content h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+    .single-road-map {
+        margin-bottom: 24px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .stakes-area {
+        margin-right: 10px;
+        margin-left: 10px;
+
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    #join .elementor-widget-container {
+        padding-left: 16px;
+
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    #joinicon {
+        display: none;
+
+    }
+
+}
+
+.partner-item {
+    opacity: 0.8;
+}
+
+
+.banner-img-1 {
+    margin: auto;
+    text-align: center;
+}
+
+
+
+#blendmode {
+    background-blend-mode: multiply !important;
+}
+
+
+
+.elementor-background-overlay {
+    display: none !important;
+}
+
+
+
+
+.elementor-column {
+    min-height: 40px;
+}
+
+
+
+div.single-footer-widget.logo {
+    margin-top: -50px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+    div.single-footer-widget.logo {
+        margin-top: none !important;
+        width: 50% !important;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+}
+
+
+
+
+.bg-color-100a24 {
+    background-color: #13173F;
+}
+
+
+.bg-color-140c2d {
+    background-color: #020627;
+}
+
+div.banner-content.style-one {
+    margin-top: 0 !important;
+}
+
+
+.default-btn::before {
+    border-radius: 7px;
+}
+
+
+
+#menu-item-1042 {
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+.single-footer-widget .single-footer-wid li {
+    margin-right: 30px;
+}
+
+
+.single-team {
+
+    background: rgb(255 255 255 / 0%) !important;
+}
+
+
+
+.bg-color-140c2dr {
+    background-color: rgb(20 12 45 / 0%);
+}
+
+
+.banner-area.bg-1::before {
+    background-color: rgb(20 12 45 / 0%);
+}
+
+
+.bg-color-140c2d {
+    background-color: none;
+}
+
+.bg-color-140c2d {
+    background-color: #02062700;
+}
+
+.navbar {
+    padding: 20px 0px 20px 0px;
+}
+
+.navbar .navbar-brand h2,
+.navbar .navbar-brand img {
+    width: 300px !important;
+}
+
+
+.navbar-area.hide-wp-nav.is-sticky {
+    padding-top: 0px;
+}
+
+
+.navbar>.container-fluid {
+    padding: 20px 20px 0px 20px;
+}
+
+
+
+.single-road-map {
+    background: rgb(3 7 39);
+    padding: 25px;
+    border-radius: 30px;
+}
+
+
+.partner-wrap.pb-60 {
+    padding-bottom: 10px;
+}
+
+
+
+
+h4.elementor-heading-title.elementor-size-default {
+    font-size: 2em !important;
+    line-height: 1.2em !important;
+}
+
+
+#steams {
+    background-color: #03072700 !important;
+}
+
+
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 20px !important;
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link {
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+
+.banner-content .banner-btn .default-btn {
+    margin-right: 20px;
+    font-size: 20px !important;
+}
+
+.navbar .others-option .default-btn {
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.elementor a {
+    box-shadow: none;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+
+#chainbacksignform .banner-img-1 img {
+    scale: 1;
+}
+.navbar .navbar-brand h2,
+.navbar .navbar-brand img {
+    width: 240px;
+}
+
+body {
+    background-color: #13173f;
+}
+
+:root {
+    --mainColor: #863ffe;
+}
+
+:root {
+    --mainColor2: #de63ff;
+}
+
+:root {
+    --bodyColor: #ddd6ed;
+}
+
+.navbar .navbar-nav .nav-item a {
+    color: #13173f;
+}
+
+:root {
+    --gradColorPink: #FA26CA;
+}
+
+:root {
+    --gradColorBlue: #712AF9;
+}
+
+:root {
+    --gradColor1: #46ff7a;
+}
+
+:root {
+    --gradColor2: #52cbe7;
+}
+
+:root {
+    --gradColor3: #7650dc;
+}
+
+.footer-area h1,
+.footer-area h2,
+.footer-area h3,
+.footer-area h4,
+.footer-area h5,
+.footer-area h6,
+.copyright-area p a {
+    color: #ffffff;
+}
+
+body {
+    font-family: Roboto;
+}
+
+body {
+    font-size: 16px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 16px;
+}

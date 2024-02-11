@@ -1,10 +1,9 @@
 import { useState } from 'react'
-import './App.css'
+import './Home.css'
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 
-function App() {
-  const [count, setCount] = useState(0)
+function Home() {
   const [ref, inView] = useInView({
     triggerOnce: true,
   });
@@ -130,7 +129,7 @@ function App() {
                     >
                       <a
                         title="Chainback File Manager"
-                        href="https://app-chainback-org.vercel.app/"
+                        href="https://app.chainback.org/"
                         className="dropdown-item"
                       >
                         Chainback File Manager
@@ -143,12 +142,6 @@ function App() {
                       <a title="Chainback Cloud" href="#" className="dropdown-item">
                         Chainback Cloud
                       </a>
-                    </li>
-                    <li
-                      id="menu-item-4672"
-                      className="menu-item menu-item-type-custom menu-item-object-custom menu-item-4672 nav-item"
-                    >
-                      <a title="Yana AI" href="#" class="dropdown-item">Yana AI</a>
                     </li>
                   </ul>
                 </li>
@@ -4908,7 +4901,7 @@ function App() {
                                     </p>
                                     <div className="banner-btn">
                                       <a
-                                        href="https://app-chainback-org.vercel.app/"
+                                        href="https://app.chainback.org/"
                                         className="default-btn btn-active"
                                       >
                                         APP
@@ -5013,7 +5006,7 @@ function App() {
                               >
                                 <div className="elementor-widget-container">
                                   <a
-                                    href="https://app-chainback-org.vercel.app/"
+                                    href="https://app.chainback.org"
                                     className="default-btn btn-active"
                                   >
                                     SHARE NOW
@@ -6188,7 +6181,7 @@ function App() {
                     id="menu-item-1816"
                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-1816"
                   >
-                    <a href="https://app-chainback-org.vercel.app/">Chainback APP</a>
+                    <a href="https://app.chainback.org/">Chainback APP</a>
                   </li>
                   <li
                     id="menu-item-1818"
@@ -6265,4 +6258,4 @@ function App() {
   )
 }
 
-export default App
+export default Home
