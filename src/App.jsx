@@ -28,7 +28,7 @@ function App() {
           <div className="container">
             <div className="nata-responsive-menu">
               <div className="logo">
-                <a href="https://chainback.org/" className="mobile-brand">
+                <a href="https://chainback-org.vercel.app/" className="mobile-brand">
                   <img
                     src="https://chainback.org/wp-content/uploads/2023/01/Chanback-logo.png"
                     alt="Chainback"
@@ -40,7 +40,7 @@ function App() {
         </div>
         <nav className="nata-nav navbar navbar-expand-lg">
           <div className="container-fluid">
-            <a className="navbar-brand" href="https://chainback.org/">
+            <a className="navbar-brand" href="https://chainback-org.vercel.app/">
               <img
                 src="https://chainback.org/wp-content/uploads/2023/01/Chanback-logo.png"
                 alt="Chainback"
@@ -86,7 +86,7 @@ function App() {
                 >
                   <a
                     title="STAKING"
-                    href="https://chainback.org/staking/"
+                    href="https://chainback-org-staking.vercel.app/"
                     className="nav-link"
                   >
                     STAKING
@@ -6202,14 +6202,14 @@ function App() {
                     id="menu-item-2981"
                     className="menu-item menu-item-type-custom menu-item-object-custom menu-item-2981"
                   >
-                    <a href="https://chainback.org/staking/">Staking</a>
+                    <a href="https://chainback-org-staking.vercel.app/">Staking</a>
                   </li>
                 </ul>
               </div>
             </div>
             <div className="col-lg-2 col-md-2">
               <div className="single-footer-widget logo">
-                <a href="https://chainback.org/">
+                <a href="https://chainback-org.vercel.app/">
                   <img
                     src="https://chainback.org/wp-content/uploads/2023/01/Chainback-logo.svg"
                     alt="Chainback"
@@ -6224,7 +6224,7 @@ function App() {
                     <span style={{ opacity: "0.5", marginRight: 16 }}>
                       Contact Us:
                     </span>{" "}
-                    <a href="https://chainback.org/#">
+                    <a href="#">
                       <span className="type--fine-print">
                         partners@chainback.org
                       </span>
